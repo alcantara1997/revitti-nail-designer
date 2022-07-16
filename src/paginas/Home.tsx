@@ -60,10 +60,10 @@ export function Home() {
         </section>
 
         <section>
-          <div className="flex flex-col px-48 py-5 gap-2 text-center font-bold text-lg justify-center items-center mt-40">
+          <div className="flex flex-col px-48 py-5 gap-2 text-center font-bold text-lg justify-center items-center mt-20">
             <span>Faça seu agendamento</span>
             <Link
-              to="/reserva"
+              to="/agendamento"
               className="flex justify-center items-center flex-row p-2 gap-2 w-72 h-14 bg-pink-400 rounded-xl text-white hover:bg-pink-500 hover:transition-colors"
             >
               Simular orçamento

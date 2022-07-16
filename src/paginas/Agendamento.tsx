@@ -25,6 +25,11 @@ export function Agendamento() {
             </div>
           </div>
 
+        </section>
+
+        <hr />
+
+        <section>
           <div className="flex flex-row justify-center items-center font-bold py-4 px-48">
             <span>Formato da unha</span>
           </div>
@@ -47,45 +52,77 @@ export function Agendamento() {
               <span>Stiletto</span>
             </div>
           </div>
+        </section>
 
+        <hr />
+
+
+        <section>
           <div className="flex flex-row justify-center items-center font-bold py-4 px-48">
             <span>Decorações</span>
           </div>
 
           <div className="flex flex-col justify-center items-center py-2 px-0">
-            <div className="flex flex-row justify-between items-center p-0 gap-96 h-14">
-              <span className="flex flex-row items-center p-0 gap-7 w-80 h-9">Pedraria</span>
+            <div className="flex flex-row justify-between items-center p-0 gap-96 h-10">
+              <span className="flex flex-row items-center p-0 gap-7 w-80 h-9"><input className="w-6 h-6 accent-pink-500 text-white cursor-pointer" type="checkbox" />Pedraria</span>
               <span className="flex flex-row items-start p-2 gap-2 w-36">R$ 5,00</span>
             </div>
-            <div className="flex flex-row justify-between items-center p-0 gap-96 h-14">
-              <span className="flex flex-row items-center p-0 gap-7 w-80 h-9">Francesa Reversa (par)</span>
+            <div className="flex flex-row justify-between items-center p-0 gap-96 h-10">
+              <span className="flex flex-row items-center p-0 gap-7 w-80 h-9"><input className="w-6 h-6 accent-pink-500 text-white cursor-pointer" type="checkbox" />Francesa Reversa (par)</span>
               <span className="flex flex-row items-start p-2 gap-2 w-36">R$ 10,00</span>
             </div>
-            <div className="flex flex-row justify-between items-center p-0 gap-96 h-14">
-              <span className="flex flex-row items-center p-0 gap-7 w-80 h-9">Francesa Reversa (10 dedos)</span>
+            <div className="flex flex-row justify-between items-center p-0 gap-96 h-10">
+              <span className="flex flex-row items-center p-0 gap-7 w-80 h-9"><input className="w-6 h-6 accent-pink-500 text-white cursor-pointer" type="checkbox" />Francesa Reversa (10 dedos)</span>
               <span className="flex flex-row items-start p-2 gap-2 w-36">R$ 30,00</span>
             </div>
-            <div className="flex flex-row justify-between items-center p-0 gap-96 h-14">
-              <span className="flex flex-row items-center p-0 gap-7 w-80 h-9">Baby Boomer</span>
+            <div className="flex flex-row justify-between items-center p-0 gap-96 h-10">
+              <span className="flex flex-row items-center p-0 gap-7 w-80 h-9"><input className="w-6 h-6 accent-pink-500 text-white cursor-pointer" type="checkbox" />Baby Boomer</span>
               <span className="flex flex-row items-start p-2 gap-2 w-36">R$ 20,00</span>
             </div>
-            <div className="flex flex-row justify-between items-center p-0 gap-96 h-14">
-              <span className="flex flex-row items-center p-0 gap-7 w-80 h-9">Encapsulada (par)</span>
+            <div className="flex flex-row justify-between items-center p-0 gap-96 h-10">
+              <span className="flex flex-row items-center p-0 gap-7 w-80 h-9"><input className="w-6 h-6 accent-pink-500 text-white cursor-pointer" type="checkbox" />Encapsulada (par)</span>
               <span className="flex flex-row items-start p-2 gap-2 w-36">R$ 7,00</span>
             </div>
-            <div className="flex flex-row justify-between items-center p-0 gap-96 h-14">
-              <span className="flex flex-row items-center p-0 gap-7 w-80 h-9">Encapsulada (10 dedos)</span>
+            <div className="flex flex-row justify-between items-center p-0 gap-96 h-10">
+              <span className="flex flex-row items-center p-0 gap-7 w-80 h-9"><input className="w-6 h-6 accent-pink-500 text-white cursor-pointer" type="checkbox" />Encapsulada (10 dedos)</span>
               <span className="flex flex-row items-start p-2 gap-2 w-36">R$ 20,00</span>
             </div>
-            <div className="flex flex-row justify-between items-center p-0 gap-96 h-14">
-              <span className="flex flex-row items-center p-0 gap-7 w-80 h-9">Esmaltação em gel</span>
+            <div className="flex flex-row justify-between items-center p-0 gap-96 h-10">
+              <span className="flex flex-row items-center p-0 gap-7 w-80 h-9"><input className="w-6 h-6 accent-pink-500 text-white cursor-pointer" type="checkbox" />Esmaltação em gel</span>
               <span className="flex flex-row items-start p-2 gap-2 w-36">R$ 15,00</span>
             </div>
           </div>
         </section>
 
+        <hr />
+
         <section>
-          <div className="flex flex-col px-48 py-5 gap-2 text-center font-bold text-lg justify-center items-center mt-40">
+          <div className="flex flex-row justify-center items-center font-bold py-4 px-48">
+            <span className="text-pink-400">Resumo dos valores</span>
+          </div>
+
+          <div className="flex flex-col justify-center items-center py-2 px-0">
+            <div className="flex flex-row justify-between items-center p-0 gap-96 h-10">
+              <span className="flex flex-row items-center p-0 gap-7 w-80 h-4 font-medium">Subtotal</span>
+              <span className="flex flex-row items-start p-2 gap-2 w-36 font-medium">R$ 0</span>
+            </div>
+            <div className="flex flex-row justify-between items-center p-0 gap-96 h-10">
+              <span className="flex flex-row items-center p-0 gap-7 w-80 h-4">Decorações</span>
+              <span className="flex flex-row items-start p-2 gap-2 w-36">R$ 0</span>
+            </div>
+            <div className="flex flex-row justify-between items-center p-0 gap-96 h-10">
+              <span className="flex flex-row items-center p-0 gap-7 w-80 h-4">Desconto</span>
+              <span className="flex flex-row items-start p-2 gap-2 w-36">R$ 0</span>
+            </div>
+            <div className="flex flex-row justify-between items-center p-0 gap-96 h-10">
+              <span className="flex flex-row items-center p-0 gap-7 w-80 h-4 text-pink-400 font-bold">TOTAL</span>
+              <span className="flex flex-row items-start p-2 gap-2 w-36 text-pink-400 font-bold">R$ 0</span>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div className="flex flex-col px-48 py-5 gap-2 text-center font-bold text-lg justify-center items-center mt-20">
             <Link
               to="/reserva"
               className="flex justify-center items-center flex-row p-2 gap-2 w-72 h-14 bg-pink-400 rounded-xl text-white hover:bg-pink-500 hover:transition-colors"
@@ -97,7 +134,7 @@ export function Agendamento() {
       </main>
 
       <Footer />
-    </div>
+    </div >
   );
 }
 

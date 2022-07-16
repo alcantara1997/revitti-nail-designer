@@ -1,3 +1,4 @@
+import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Agendamento from "./paginas/Agendamento";
 import Home from "./paginas/Home";

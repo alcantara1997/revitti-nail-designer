@@ -64,7 +64,7 @@ export function Home() {
             <span>Faça seu agendamento</span>
             <Link
               to="/agendamento"
-              className="flex justify-center items-center flex-row p-2 gap-2 w-72 h-14 bg-pink-400 rounded-xl text-white hover:bg-pink-500 hover:transition-colors"
+              className="flex justify-center items-center flex-row p-2 gap-2 w-72 h-14 bg-pink-600 rounded-xl text-white hover:bg-pink-500 hover:transition-colors"
             >
               Simular orçamento
             </Link>

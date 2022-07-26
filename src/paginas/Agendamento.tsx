@@ -10,6 +10,22 @@ export function Agendamento() {
 
       <main className="items-center justify-center px-48 py-5 bg-white">
         <section>
+
+          <div className="flex flex-row justify-between items-center py-5 px-80">
+            <div className="flex flex-col justify-center items-center p-0 gap-10 w-48 h-72">
+              <div className="bg-gray-600 rounded-full cursor-pointer w-48 h-48 "></div>
+              <div className="flex flex-row items-start p-2 gap-2 text-2xl"> Manutenção </div>
+            </div>
+            <div className="flex flex-col justify-center items-center p-0 gap-10 w-48 h-72">
+              <div className="bg-gray-600 rounded-full cursor-pointer w-48 h-48"></div>
+              <div className="flex flex-row items-start p-2 gap-2 text-2xl"> Alongamento </div>
+            </div>
+            <div className="flex flex-col justify-center items-center p-0 gap-10 w-48 h-72">
+              <div className="bg-gray-600 rounded-full cursor-pointer w-48 h-48"></div>
+              <div className="flex flex-row items-start p-2 gap-2 text-2xl"> Esmaltação </div>
+            </div>
+          </div>
+
           <div className="flex flex-row justify-center items-center font-bold py-4 px-48">
             <span>Técnica aplicada</span>
           </div>
@@ -125,7 +141,7 @@ export function Agendamento() {
           <div className="flex flex-col px-48 py-5 gap-2 text-center font-bold text-lg justify-center items-center mt-20">
             <Link
               to="/reserva"
-              className="flex justify-center items-center flex-row p-2 gap-2 w-72 h-14 bg-pink-400 rounded-xl text-white hover:bg-pink-500 hover:transition-colors"
+              className="flex justify-center items-center flex-row p-2 gap-2 w-72 h-14 bg-pink-600 rounded-xl text-white hover:bg-pink-500 hover:transition-colors"
             >
               Simular orçamento
             </Link>

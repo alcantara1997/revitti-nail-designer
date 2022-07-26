@@ -10,16 +10,16 @@ export function Header() {
         </div>
         <div>
           <ul className="flex flex-row justify-end items-center p-0 gap-14 text-2xl text-pink-400">
-            <li className="hover:underline">
+            <li className="hover:text-pink-600 transition-colors ease-in-out duration-300">
               <Link to="/">Home</Link>
             </li>
-            <li className="hover:underline">
+            <li className="hover:text-pink-600 transition-colors ease-in-out duration-300">
               <Link to="/agendamento">Agendamento</Link>
             </li>
-            <li className="hover:underline">
+            <li className="hover:text-pink-600 transition-colors ease-in-out duration-300">
               <Link to="/galeria">Galeria</Link>
             </li>
-            <li className="hover:underline">
+            <li className="hover:text-pink-600 transition-colors ease-in-out duration-300">
               <Link to="/contato">Contato</Link>
             </li>
           </ul>
